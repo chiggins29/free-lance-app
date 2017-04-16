@@ -12,6 +12,7 @@ const app_component_1 = require("./app.component");
 const homepage_component_1 = require("./homepage/homepage.component");
 const app_routing_module_1 = require("./app-routing.module");
 const documents_component_1 = require("./documents/documents.component");
+const proposal_list_component_1 = require("./proposal/proposal-list.component");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -21,6 +22,7 @@ AppModule = __decorate([
             app_routing_module_1.AppRoutingModule
         ],
         declarations: [
+            proposal_list_component_1.ProposalListComponent,
             documents_component_1.DocumentsComponent,
             app_component_1.AppComponent,
             homepage_component_1.HomepageComponent
