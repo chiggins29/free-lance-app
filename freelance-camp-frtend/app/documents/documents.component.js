@@ -8,6 +8,31 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 const core_1 = require("@angular/core");
 let DocumentsComponent = class DocumentsComponent {
+    constructor() {
+        this.documents = [
+            {
+                title: "First Doc",
+                description: "Money to be made",
+                file_url: 'http://google.com',
+                updated_at: '4/16/2017',
+                image_url: 'http://google.com'
+            },
+            {
+                title: "Second Doc",
+                description: "Money to be made",
+                file_url: 'http://google.com',
+                updated_at: '4/16/2017',
+                image_url: 'http://google.com'
+            },
+            {
+                title: "Third Doc",
+                description: "Money to be made",
+                file_url: 'http://google.com',
+                updated_at: '4/16/2017',
+                image_url: 'http://google.com'
+            }
+        ];
+    }
 };
 DocumentsComponent = __decorate([
     core_1.Component({
