@@ -16,14 +16,14 @@ export class DocumentsComponent {
 			file_url: 'http://google.com',
 			updated_at: '4/16/2017',
 			image_url: 'http://google.com'
-		}
+		},
 		{ 
 			title: "Second Doc",
 			description: "Money to be made",
 			file_url: 'http://google.com',
 			updated_at: '4/16/2017',
 			image_url: 'http://google.com'
-		}
+		},
 		{ 
 			title: "Third Doc",
 			description: "Money to be made",
