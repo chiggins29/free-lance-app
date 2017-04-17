@@ -2,7 +2,7 @@ export class Proposal {
 	constructor(
 			public id?: number,
 			public customer?: string,
-			public portfolio_url: string = 'httml://',
+			public portfolio_url: string = 'http://',
 			public tools?: string,
 			public estimated_hours?: number,
 			public hourly_rate?: number,
@@ -11,4 +11,4 @@ export class Proposal {
 	) {}
 }
 
-// 'Abc Company', 'http://portfolio.codyhiggins.com', 'Ruby on Rails', 150, 120, 15, 'codyhiggins@gmail.com'
+// 12, 'Abc Company', 'http://portfolio.codyhiggins.com', 'Ruby on Rails', 150, 120, 15, 'codyhiggins@gmail.com'
