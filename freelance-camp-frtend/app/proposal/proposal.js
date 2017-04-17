@@ -13,5 +13,5 @@ class Proposal {
     }
 }
 exports.Proposal = Proposal;
-// 12, 'Abc Company', 'http://portfolio.codyhiggins.com', 'Ruby on Rails', 150, 120, 15, 'codyhiggins@gmail.com' 
+// 12, 'Abc Company', 'https://ch-devcamp-portfolio.herokuapp.com/', 'Ruby on Rails', 150, 120, 15, 'codyhiggins@gmail.com' 
 //# sourceMappingURL=proposal.js.map
